@@ -1,0 +1,7 @@
+
+Geral:
+-limpar o programa
+-testar programa
+-jogar no git
+
+
