@@ -2,7 +2,6 @@ import pessoa as p
 import folhaPagamento as folha
 import erros as e
 import banco_de_dados as db
-import menu as m
 
 class professor(p.pessoa):
     def __init__(self):

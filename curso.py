@@ -1,4 +1,3 @@
-import professor as p
 import banco_de_dados as db
 import erros as e
 

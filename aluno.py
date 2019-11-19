@@ -1,5 +1,4 @@
 import pessoa as p
-import curso as c
 import banco_de_dados as db
 import erros as e
 

@@ -46,7 +46,9 @@ class menu:
                         if (len(aluno) >= 1):
                             print(aluno[0].exibir_aluno())
                         else:
+                            print()
                             print("Nenhum aluno encontrado com essa matricula.")
+                            print()
                     if opMenu == 3:
                         break
             if op == 2:
@@ -65,7 +67,9 @@ class menu:
                         if (len(professor) >= 1):
                             print(professor[0].exibir_professor())
                         else:
+                            print()
                             print("Nenhum professor encontrado com essa matricula.")
+                            print()
                     if opMenu == 3:
                         break
             if op == 3:
@@ -84,7 +88,9 @@ class menu:
                         if (len(funcionario) >= 1):
                             print(funcionario[0].exibir_funcionario())
                         else:
+                            print()
                             print("Nenhum funcionário encontrado com essa matricula")
+                            print()
                     if opMenu == 3:
                         break
             if op == 4:
@@ -108,7 +114,9 @@ class menu:
                         if (len(curso) >= 1):
                             print(curso[0].exibir_curso())
                         else:
+                            print()
                             print("Nenhum curso encontrado com esse código")
+                            print()
                     if opMenu == 3:
                         break
             if op == 5:
@@ -126,7 +134,9 @@ class menu:
                             professor = salario_brutoProfessor[0].exibir_professor()
                             folha.folhaPagamento(professor['salario_bruto']).exibir_folha_pagamento_prof(matriculaProfessorFolha, professor['nome'], professor['plus_salario'], professor['salario_bruto'], professor['salario_liquido'], professor['inss'], professor['irrf'])
                         else:
+                            print()
                             print("Nenhum professor encontrado com essa matricula.")
+                            print()
                     if opMenu == 2:
                         listaFuncionariosFolha = self.dbFuncionario.loadObject()
                         matriculaFuncionarioFolha = input('Informe a matricula do funcionário para exibir a folha de pagamento: ')
@@ -135,7 +145,9 @@ class menu:
                             funcionario = salario_brutoFuncionario[0].exibir_funcionario()
                             folha.folhaPagamento(funcionario['salario_bruto']).exibir_folha_pagamento_func(matriculaFuncionarioFolha, funcionario['nome'], funcionario['salario_bruto'], funcionario['salario_liquido'], funcionario['inss'], funcionario['irrf'])
                         else:
+                            print()
                             print("Nenhum funcionário encontrado com essa matricula")
+                            print()
                     if opMenu == 3:
                         break
             if op == 6:

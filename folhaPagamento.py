@@ -1,6 +1,3 @@
-import funcionario as t
-import professor as p
-
 class folhaPagamento:
     def __init__(self, salario_bruto):
         self.salario_bruto = salario_bruto

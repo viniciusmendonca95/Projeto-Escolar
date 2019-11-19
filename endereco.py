@@ -1,5 +1,3 @@
-import pessoa as p
-
 class endereco:
     def __init__(self):
         self.logradouro = ""
